@@ -1,0 +1,29 @@
+{
+   "name": "Convorse",
+   "version": "0.0.0",
+   "description": "Convorse API client module",
+   "keywords": [
+       "convore",
+       "client"
+   ],
+   "maintainers": [
+       {
+           "name": "Yaroslav Shirokov",
+           "email": "slava@hackinggibsons.com",
+           "web": "https://github.com/sshirokov/Convorse"
+       }
+   ],
+   "bugs": {
+       "web": "https://github.com/sshirokov/Convorse/issues"
+   },
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://sshirokov@github.com/sshirokov/Convorse.git"
+       }
+   ],
+   "engines": ["node >=0.4.0-pre"],
+   "directories": {
+       "lib": "./lib",
+   }
+}x
