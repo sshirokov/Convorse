@@ -22,7 +22,7 @@
            "url": "https://sshirokov@github.com/sshirokov/Convorse.git"
        }
    ],
-   "engines": ["node >=0.4.0-pre"],
+   "engines": ["node >=0.4.0"],
    "directories": {
        "lib": "./lib",
    }
