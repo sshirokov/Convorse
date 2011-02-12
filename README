@@ -16,6 +16,7 @@ Quick Demo:
 [..A bunch of debug crap scrolls by as the API interface is compiled..]
 node>> client.api.groups().request(callback)
 [..A bunch of debug crap as the call chain is traversed..]
+Status: 200
 Data: { groups: 
    [ { date_latest_message: 1297427717.133038,
        topics_count: 1,
@@ -27,4 +28,20 @@ Data: { groups:
        unread: 0,
        id: '2221',
        slug: 'convorse' } ] }
-node>> 
+
+// Call chain is generated matching the API description, including variable parameters to functions.
+
+node>> client.api.groups(2221).topics().request(callback)
+[..Some more debug spam..]
+Status: 200
+Data: { topics: 
+   [ { name: 'I am the pusher robot',
+       creator: [Object],
+       url: '/convorse/i-am-the-pusher-robot/',
+       id: '4144',
+       message_count: 1,
+       date_latest_message: 1297427717.133038,
+       date_created: 1297427709.532413,
+       unread: 0,
+       slug: 'i-am-the-pusher-robot' } ] }
+node>>
