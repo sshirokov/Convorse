@@ -2,6 +2,10 @@ Convorse is a Convore client library.
 
 #TODO: Description
 
+WARNING:
+        This is stupidly early code.  As of writing only GET requests work, and the streaming interface isn't 
+        yet wired correctly.  This only proves that the API is compiled to the correct call chains.
+
 Quick Demo:
 
  This demo will spin up the API, authenticated by the user/pass combo on the command line and launch into a repl.
